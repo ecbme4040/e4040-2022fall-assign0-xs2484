@@ -5,11 +5,11 @@ The simplest way to initially see the content of the Jupyter notebook file Assig
 
 TODO Students should execute the Assignment0 as soon as possible in Google colab, before the add/drop date.
 
-TODO Students who are formally registered into this class after the end of the add/drop period, the assignment requires that students (for the second time, after Colab) complete the tasks from this Jupyter Notebook while running it on the **Google Cloud (GCP) custom image** (not Colab, Colab is only a temporary execution method).
+TODO For students who are formally registered into this class after the end of the add/drop period, the assignment requires that students (for the second time, afterColab) complete the tasks from this Jupyter Notebook while running it on the **Google Cloud (GCP) custom image** (not Colab, Colab is only a temporary execution method).
 
 # Detailed instructions how to submit the solution to this assignment/homework, after add/drop, for fully registered students:
 1. The assignment will be distributed (for the second time, after add/drop) as a Github classroom assignment - as a special repository accessed through a link
-2. Student's copy of the assignment gets created automatically (as a personal repo) with a special name - students have to rename per instructions below
+2. Student's copy of the assignment gets created automatically with a special name - students have to rename per instructions below
 3. The solution to the assignment has to be submitted inside that repository as a "solved" Jupyter Notebook
 4. Three files/screenshots need to be uploaded into the directory "figures" which prove that the assignment has been done in the cloud
 
@@ -27,7 +27,7 @@ Students must upload three similar screenshots in the same directory, but with t
 ## (Re)naming of the student repository (TODO students)
 INSTRUCTIONS for naming the student's solution repository for assignments with one student:
 * Students need to use the following name for the repository with their solutions: e4040-2022Fall-assign0-UNI (the first part "e4040-2022Fall-assign0" will probably be inherited from the assignment, so only UNI needs to be added) 
-* Initially, the system may give the repo a name which ends with a student's Github userid. The student should remove that githubID  and replace it with the name requested in the point above (UNI in 4-5 letter format)
+* Initially, the system may give the repo a name which ends with a student's Github userid. The student should change that name and replace it with the name requested in the point above
 * Good Example: e4040-2022Fall-assign0-zz9999;   Bad example: e4040-2022Fall-assign0-e4040-2022Fall-assign0-zz9999.
 * This change can be done from the "Settings" tab which is located on the repo page.
 
@@ -37,14 +37,23 @@ INSTRUCTIONS for naming the students' solution repository for assignments with m
 # Organization of this directory
 
 ```            
-├── Assignment 0.ipynb
-├── README.md
-├── figures
-│   ├── README.md
-│   ├── gcp_work_example_screenshot_1.png
-│   ├── gcp_work_example_screenshot_2.png
-│   └── gcp_work_example_screenshot_3.png
-└── requirements.txt
+|   .gitignore
+|   README.md
+|   requirements_2021Fall.txt
+|   requirements_2022Fall.txt
+|   Solved_Assignment 0.ipynb
+|   
++---.ipynb_checkpoints
+|       Assignment 0-checkpoint.ipynb
+|       Solved_Assignment 0-checkpoint.ipynb
+|       
+\---figures
+        gcp_work_example_screenshot_1.png
+        gcp_work_example_screenshot_2.png
+        gcp_work_example_screenshot_3.png
+        README.md
+        xs2484_gcp_work_example_screenshot_1.png
+        xs2484_gcp_work_example_screenshot_2.png
+        xs2484_gcp_work_example_screenshot_3.png
 
-1 directory, 7 files
-```
+``` 
