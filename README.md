@@ -39,18 +39,13 @@ INSTRUCTIONS for naming the students' solution repository for assignments with m
 ```            
 |   .gitignore
 |   README.md
-|   requirements_2021Fall.txt
-|   requirements_2022Fall.txt
+|   requirements.txt
 |   Solved_Assignment 0.ipynb
 |   
 +---.ipynb_checkpoints
-|       Assignment 0-checkpoint.ipynb
 |       Solved_Assignment 0-checkpoint.ipynb
 |       
 \---figures
-        gcp_work_example_screenshot_1.png
-        gcp_work_example_screenshot_2.png
-        gcp_work_example_screenshot_3.png
         README.md
         xs2484_gcp_work_example_screenshot_1.png
         xs2484_gcp_work_example_screenshot_2.png
